@@ -1,0 +1,10 @@
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    
+  }
+
+  .primary-color{
+    background-color: hsl(220, 16%, 96%);
+  }
