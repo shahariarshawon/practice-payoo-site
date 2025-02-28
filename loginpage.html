@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style1.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Payoo</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+  </head>
+  <body class="bg-slate-800 outfit">
+    <!-- login Page -->
+    <section
+      id="first-page-section"
+      class="min-h-screen max-w-md mx-auto primary-color font-medium"
+    >
+      <div class="px-7">
+        <div class="pt-[193px]">
+          <img class="mx-auto" src="assets/bg.png" alt="" />
+          <img class="mx-auto relative -top-65" src="assets/Group.png" alt="" />
+        </div>
+        <div class="relative bottom-50 text-[16px] bg-white p-8 rounded-2xl">
+          <h3 class="mb-3">Mobile Number</h3>
+          <input
+            id="input1"
+            class="mb-3 primary-color border-none py-4 pl-5 w-full rounded-[32px]"
+            type="number"
+            placeholder="Enter your number"
+          />
+          <h3 class="mb-3">4 Digit Pin</h3>
+          <input
+            id="input2"
+            class="mb-3 primary-color border-none py-4 pl-5 w-full rounded-[32px]"
+            type="number"
+            placeholder="Enter 4 Digit Pin"
+
+          />
+          <button
+          id="login-button"
+            class="mb-3 bg-[#0874F2] text-xl text-white border-none py-2.5 mt-4 w-full rounded-[32px]"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script/login.js"></script>
+  </body>
+</html>
